@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://c.fastcdn.co/t/2d431185/cf164cbe/1519755109-27943132-105x105-Daily-UI-Logo.png" width="100">
+  <img src="https://cdn.dribbble.com/users/252377/screenshots/2480881/daily-ui-logo_1x.png" width="200">
 </p>
 
 | Icon | Status |
@@ -62,52 +62,51 @@
 :x: | 51 | Job Listing | - |
 :x: | 52 | Press Page | - |
 :x: | 53 | Daily UI logo | - |
+:x: | 54 | Header Navigation | - |
+:x: | 55 | Confirm Reservation | - |
+:x: | 56 | Icon Set | - |
+:x: | 57 | Breadcrumbs | - |
+:x: | 58 | Video Player | - |
+:x: | 59 | Shopping Cart | - |
+:x: | 60 | Background Pattern | - |
+:x: | 61 | Color Picker | - |
+:x: | 62 | Redeem Coupon | - |
+:x: | 63 | Workout of the day | - |
+:x: | 64 | Best of 2015 | - |
+:x: | 65 | Select User Type | - |
+:x: | 66 | Notes Widget | - |
+:x: | 67 | Statistics | - |
+:x: | 68 | Hotel Booking | - |
+:x: | 69 | Flight Search | - |
+:x: | 70 | Trending | - |
+:x: | 71 | Event Listing | - |
+:x: | 72 | Image Slider | - |
+:x: | 73 | Virtual Reality | - |
+:x: | 74 | Download App | - |
+:x: | 75 | Pre-Order | - |
+:x: | 76 | Loading... | - |
+:x: | 77 | Thank You | - |
+:x: | 78 | Pending Invitation | - |
+:x: | 79 | Itinerary | - |
+:x: | 80 | Date Picker | - |
+:x: | 81 | Status Update | - |
+:x: | 82 | Form | - |
+:x: | 83 | Button | - |
+:x: | 84 | Badge | - |
+:x: | 85 | Pagination | - |
+:x: | 86 | Progress Bar | - |
+:x: | 87 | Tooltip | - |
+:x: | 88 | Avatar | - |
+:x: | 89 | Terms of Service | - |
+:x: | 90 | Create New | - |
+:x: | 91 | Curated For You | - |
+:x: | 92 | F.A.Q. | - |
+:x: | 93 | Splash Screen | - |
+:x: | 94 | News | - |
+:x: | 95 | Product Tour | - |
+:x: | 96 | Currently In-Stock | - |
+:x: | 97 | Giveaway | - |
+:x: | 98 | Advertisement | - |
+:x: | 99 | Categories | - |
+:x: | 100 | Redesign Daily UI Landing Page | - |
 
-Header Navigation
-Confirm Reservation
-Icon Set
-Breadcrumbs
-Video Player
-Shopping Cart
-Background Pattern
-Color Picker
-Redeem Coupon
-Workout of the day
-Best of 2015
-Select User Type
-Notes Widget
-Statistics
-Hotel Booking
-Flight Search
-Trending
-Event Listing
-Schedule
-Image Slider
-Virtual Reality
-Download App
-Pre-Order
-Loading...
-Thank You
-Pending Invitation
-Itinerary
-Date Picker
-Status Update
-Form
-Button
-Badge
-Pagination
-Progress Bar
-Tooltip
-Avatar
-Terms of Service
-Create New
-Curated For You
-F.A.Q.
-Splash Screen
-News
-Product Tour
-Currently In-Stock
-Giveaway
-Advertisement
-Categories
-Redesign Daily UI Landing Page
