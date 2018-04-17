@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.dribbble.com/users/252377/screenshots/2480881/daily-ui-logo_1x.png" width="200">
+  <img src="https://cdn.dribbble.com/users/252377/screenshots/2480881/daily-ui-logo_1x.png" width="400">
 </p>
 
 | Icon | Status |
