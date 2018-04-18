@@ -15,7 +15,7 @@
 :x: | 3 | Landing Page (above the fold) | - |
 :x: | 4 | Calculator | - |
 :x: | 5 | App Icon | - |
-:x: | 6 | User Profile | - |
+:clock1: | 6 | User Profile | - |
 :x: | 7 | Settings | - |
 :x: | 8 | 404 page | - |
 :x: | 9 | Music Player | - |
