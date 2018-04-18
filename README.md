@@ -6,6 +6,7 @@
 ---- | ----
 :heavy_check_mark: | already performed
 :x: | unrealized
+:clock1: | work in progress
 
 | Status | Number | Challenge | Result
 ---- | ---- | ---------- | ----------------
