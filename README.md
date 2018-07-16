@@ -15,7 +15,7 @@
 :x: | 3 | Landing Page (above the fold) | - |
 :x: | 4 | Calculator | - |
 :x: | 5 | App Icon | - |
-:heavy_check_mark: | 6 | User Profile | [See it](https://gabrielferreiraa.github.io/daily-ui/06/) |
+:heavy_check_mark: | 6 | User Profile | [See it](https://gabrielferreiraa.github.io/daily-ui/06/) / [Codepen](https://codepen.io/gabrielferreira/full/MGWgmo/)|
 :x: | 7 | Settings | - |
 :x: | 8 | 404 page | - |
 :x: | 9 | Music Player | - |
