@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+body {
+  background-color: #32393d; 
+  overflow: hidden;
+}
+
+.icon {
+  background: #f12711;
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f5af19, #f12711);
+  height: 400px;
+  width: 400px;
+  border-radius: 40px;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(200px, -200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(1px 9px 5px rgba(0, 0, 0, .3));
+}
+
+.icon:before {
+  content: 'Heart App';
+  color: #FFF;
+  position: absolute;
+  bottom: -50px;
+  font-size: 1.3em;
+  font-family: 'Merienda', cursive;
+}
+
+.icon .heart {
+  display: flex;
+  animation: beat 500ms ease infinite alternate;
+  will-change: transform;
+}
+
+.icon .heart .part1,
+.icon .heart .part2,
+.icon .heart .part3 {
+  background-color: #FFF;
+  width: 150px;
+  height: 150px;
+}
+
+.icon .heart .part1 {
+  transform: rotate(45deg) translateY(0);
+}
+
+.icon .heart .part2,
+.icon .heart .part3{
+  border-radius: 50%;
+  position: absolute;
+}
+
+.icon .heart .part2 {
+  transform: translate(-50px, -50px);
+}
+
+.icon .heart .part3 {
+  transform: translate(50px, -50px);
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(.8);
+  }
+  
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(1px 9px 5px rgba(0, 0, 0, .3));
+  }
+}
