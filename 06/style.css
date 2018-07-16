@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #FAFAFA;
+}
+
+.content {
+  width: 750px;
+  height: 500px;
+  background-color: #FFF;
+  border-radius: 7px;
+  filter: drop-shadow(2px 2px 9px rgba(0, 0, 0, .1));
+  display: flex;
+  overflow: hidden;
+  margin: 15px;
+}
+
+.content__user {
+  background: url('./user.jpeg') no-repeat 50% / cover;
+  filter: grayscale(70%);
+  will-change: filter, width;
+  position: relative;
+  transition: filter 150ms, width 150ms ease;
+}
+
+.content__user:hover {
+  filter: grayscale(0%);
+  width: 100%;
+}
+
+.content__user:hover + .content__profile {
+  width: 0%;
+  opacity: 0;
+}
+
+.content__user:hover .content__user--social {
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.content__user:hover .content__user--social a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  position: relative;
+}
+
+.content__user--social a:after{
+  font-size: .4em;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: all 200ms ease;
+}
+
+.content__user--social a:hover:after{
+  opacity: 1;
+  left: 50px;
+  transition: all 200ms ease;
+}
+
+.content__user--social .content__user--social-fb:hover:after{
+  content: '@imgabrielferreira';
+}
+
+.content__user--social .content__user--social-github:hover:after{
+  content: '@gabrielferreiraa';
+}
+
+.content__user--social .content__user--social-twitter:hover:after{
+  content: '@imgabrielf';
+}
+
+.content__user--social .content__user--social-linkedin:hover:after{
+  content: '@gabrielferreira';
+}
+
+.content__user--social {
+  width: calc(100% - (10px * 2));
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  display: flex;
+}
+
+.content__user--social a {
+  color: #FFF;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+
+.content__user,
+.content__profile {
+  width: 50%;
+}
+
+.content__profile {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.content__profile--user-location {
+  font-size: .7em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.content__profile--user-name {
+  font-size: 1.6em;
+  color: #352F2F;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.content__profile--user-actions {
+  display: flex;
+}
+
+.content__profile--user-actions a {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  border: 1px solid #00D180;
+  border-radius: 20px;
+  color: #00D180;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.content__profile--user-actions a:hover {
+  background-color: #00D180;
+  color: #FFF;
+}
+
+.content__profile--hire a {
+  background-color: transparent;
+  padding: 20px 80px 20px 80px;
+  border: none;
+  border: 1px solid #00D180;
+  border-radius: 40px;
+  font-size: 1.4em;
+  color: #00D180;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.content__profile--hire a:hover {
+   background-color: #00D180;
+  color: #FFF;
+}
+
+@media screen and(min-width: 768px) {
+  .content {
+    flex-wrap: wrap;
+  }
+  
+  .content__user,
+  .content__profile {
+    width: 100%;
+  }
+}
