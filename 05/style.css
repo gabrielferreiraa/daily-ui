@@ -8,6 +8,9 @@ body {
 .icon {
   background: #f12711;
   background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: -webkit-gradient(linear, left top, right top, from(#f5af19), to(#f12711));
+  background: -webkit-linear-gradient(left, #f5af19, #f12711);
+  background: -o-linear-gradient(left, #f5af19, #f12711);
   background: linear-gradient(to right, #f5af19, #f12711);
   height: 400px;
   width: 400px;
@@ -15,11 +18,20 @@ body {
   position: absolute;
   right: 50%;
   top: 50%;
-  transform: translate(200px, -200px);
+  -webkit-transform: translate(200px, -200px);
+      -ms-transform: translate(200px, -200px);
+          transform: translate(200px, -200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  filter: drop-shadow(1px 9px 5px rgba(0, 0, 0, .3));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-filter: drop-shadow(1px 9px 5px rgba(0, 0, 0, .3));
+          filter: drop-shadow(1px 9px 5px rgba(0, 0, 0, .3));
 }
 
 .icon:before {
@@ -32,8 +44,11 @@ body {
 }
 
 .icon .heart {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  animation: beat 500ms ease infinite alternate;
+  -webkit-animation: beat 500ms ease infinite alternate;
+          animation: beat 500ms ease infinite alternate;
   will-change: transform;
 }
 
@@ -46,7 +61,9 @@ body {
 }
 
 .icon .heart .part1 {
-  transform: rotate(45deg) translateY(0);
+  -webkit-transform: rotate(45deg) translateY(0);
+      -ms-transform: rotate(45deg) translateY(0);
+          transform: rotate(45deg) translateY(0);
 }
 
 .icon .heart .part2,
@@ -56,20 +73,41 @@ body {
 }
 
 .icon .heart .part2 {
-  transform: translate(-50px, -50px);
+  -webkit-transform: translate(-50px, -50px);
+      -ms-transform: translate(-50px, -50px);
+          transform: translate(-50px, -50px);
 }
 
 .icon .heart .part3 {
-  transform: translate(50px, -50px);
+  -webkit-transform: translate(50px, -50px);
+      -ms-transform: translate(50px, -50px);
+          transform: translate(50px, -50px);
+}
+
+@-webkit-keyframes beat {
+  0% {
+    -webkit-transform: scale(.8);
+            transform: scale(.8);
+  }
+  
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: drop-shadow(1px 9px 5px rgba(0, 0, 0, .3));
+            filter: drop-shadow(1px 9px 5px rgba(0, 0, 0, .3));
+  }
 }
 
 @keyframes beat {
   0% {
-    transform: scale(.8);
+    -webkit-transform: scale(.8);
+            transform: scale(.8);
   }
   
   100% {
-    transform: scale(1);
-    filter: drop-shadow(1px 9px 5px rgba(0, 0, 0, .3));
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: drop-shadow(1px 9px 5px rgba(0, 0, 0, .3));
+            filter: drop-shadow(1px 9px 5px rgba(0, 0, 0, .3));
   }
 }
