@@ -12,10 +12,10 @@
 ---- | ---- | ---------- | ----------------
 :x: | 1 | Sign Up | - |
 :x: | 2 | Credit Card Checkout | - |
-:x: | 3 | Landing Page (above the fold) | - |
+:clock1: | 3 | Landing Page (above the fold) | - |
 :x: | 4 | Calculator | - |
-:heavy_check_mark: | 5 | App Icon | [See it](https://gabrielferreiraa.github.io/daily-ui/05/) / [Codepen](https://codepen.io/gabrielferreira/full/ajNwOo/) |
-:heavy_check_mark: | 6 | User Profile | [See it](https://gabrielferreiraa.github.io/daily-ui/06/) / [Codepen](https://codepen.io/gabrielferreira/full/MGWgmo/)|
+:heavy_check_mark: | 5 | App Icon | [See it](https://gabrielferreiraa.github.io/daily-ui/005/) / [Codepen](https://codepen.io/gabrielferreira/full/ajNwOo/) |
+:heavy_check_mark: | 6 | User Profile | [See it](https://gabrielferreiraa.github.io/daily-ui/006/) / [Codepen](https://codepen.io/gabrielferreira/full/MGWgmo/)|
 :x: | 7 | Settings | - |
 :x: | 8 | 404 page | - |
 :x: | 9 | Music Player | - |
