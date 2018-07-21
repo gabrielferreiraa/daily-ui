@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700");
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  overflow: hidden;
+}
+
+.landing {
+  background: url("https://raw.githubusercontent.com/gabrielferreiraa/daily-ui/master/003/bg.png") no-repeat fixed 100%/cover;
+  height: 100vh;
+}
+.landing--nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  height: 100px;
+  z-index: 1;
+}
+.landing--nav-logo {
+  width: 100px;
+  height: auto;
+}
+.landing--nav-menu {
+  display: flex;
+  align-items: center;
+}
+.landing--nav-menu li {
+  cursor: pointer;
+  margin: 40px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-family: 'Lato', sans-serif;
+}
+.landing--nav-menu li a {
+  color: #FFF;
+  text-decoration: none;
+}
+.landing--nav-menu li.login {
+  background-color: #72b5A4;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  transition: background-color 200ms ease;
+}
+.landing--nav-menu li.login a {
+  color: #FFF;
+}
+.landing--nav-menu li.login:hover {
+  background-color: #93c7ba;
+}
+.landing--text {
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+.landing--show-more {
+  position: absolute;
+  bottom: 35px;
+  right: 50%;
+  -webkit-transform: translateX(24px);
+          transform: translateX(24px);
+  -webkit-animation: moveShowMore 500ms alternate infinite;
+          animation: moveShowMore 500ms alternate infinite;
+}
+
+@-webkit-keyframes moveShowMore {
+  0% {
+    -webkit-transform: translate(24px, 0);
+            transform: translate(24px, 0);
+  }
+  100% {
+    -webkit-transform: translate(24px, 10px);
+            transform: translate(24px, 10px);
+  }
+}
+
+@keyframes moveShowMore {
+  0% {
+    -webkit-transform: translate(24px, 0);
+            transform: translate(24px, 0);
+  }
+  100% {
+    -webkit-transform: translate(24px, 10px);
+            transform: translate(24px, 10px);
+  }
+}
