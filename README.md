@@ -12,7 +12,7 @@
 ---- | ---- | ---------- | ----------------
 :x: | 1 | Sign Up | - |
 :x: | 2 | Credit Card Checkout | - |
-:clock1: | 3 | Landing Page (above the fold) | - |
+:heavy_check_mark: | 3 | Landing Page (above the fold) | [See it] )_ / [Codepen](https://codepen.io/gabrielferreira/full/WKwMOj/) |
 :x: | 4 | Calculator | - |
 :heavy_check_mark: | 5 | App Icon | [See it](https://gabrielferreiraa.github.io/daily-ui/005/) / [Codepen](https://codepen.io/gabrielferreira/full/ajNwOo/) |
 :heavy_check_mark: | 6 | User Profile | [See it](https://gabrielferreiraa.github.io/daily-ui/006/) / [Codepen](https://codepen.io/gabrielferreira/full/MGWgmo/)|
