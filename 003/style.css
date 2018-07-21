@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700");
-* {
+html,
+body {
   font-family: 'Lato', sans-serif;
-}
-
-html {
   overflow: hidden;
+  margin: 0;
 }
 
 .landing {
@@ -12,20 +11,31 @@ html {
   height: 100vh;
 }
 .landing--nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 40px;
   height: 100px;
   z-index: 1;
+  list-style-type: none;
 }
 .landing--nav-logo {
   width: 100px;
   height: auto;
 }
 .landing--nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .landing--nav-menu li {
   cursor: pointer;
@@ -42,6 +52,8 @@ html {
   background-color: #72b5A4;
   border-radius: 30px;
   padding: 15px 30px 15px 30px;
+  -webkit-transition: background-color 200ms ease;
+  -o-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
 }
 .landing--nav-menu li.login a {
@@ -52,9 +64,15 @@ html {
 }
 .landing--text {
   font-size: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #FFF;
   font-family: 'Lato', sans-serif;
   font-weight: 200;
@@ -70,7 +88,8 @@ html {
   bottom: 35px;
   right: 50%;
   -webkit-transform: translateX(24px);
-          transform: translateX(24px);
+          -ms-transform: translateX(24px);
+      transform: translateX(24px);
   -webkit-animation: moveShowMore 500ms alternate infinite;
           animation: moveShowMore 500ms alternate infinite;
 }
